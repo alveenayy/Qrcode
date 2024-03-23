@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:thistle;
+}
+.card{
+    width: 50vw;
+    height: fit-content;
+   border-radius: 40px;
+   border: none;
+   padding: 30px;
+    margin: 10% auto;
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ gap:20px;
+}
+p{
+    color: darkred;
+    font-size: 2rem;
+    text-align: center;
+}
+input{
+    width:50%;
+    height:30px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: blanchedalmond;
+    color: darkred;
+    margin: 0 auto;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 0px auto;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 2px solid darkred;
+    color: darkred;
+
+}
+button:hover{
+    width: 102px;
+    height:42px
+}
+button:active{
+    background-color: darkred;
+    color: white;
+
+}
+@media screen and (max-width:480px) {
+    .card{
+        margin-top: 200px;
+        height: fit-content;
+        width: 80vw;
+    }
+    input{
+        width:90%;
+    }
+    button{
+        width:100px;
+      padding: 5px;
+    }
+}
+@media screen and (max-width:800px) {
+    input{
+        width:90%;
+    }
+}
